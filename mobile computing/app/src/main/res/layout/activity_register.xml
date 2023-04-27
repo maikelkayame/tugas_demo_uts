@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@android:color/holo_orange_light">
+
+
+    <ImageView
+        android:id="@+id/r_vek_1"
+        android:layout_width="460dp"
+        android:layout_height="554dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-104dp"
+        android:layout_marginTop="-198dp"
+        android:src="@drawable/vek1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="231dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/ly_1">
+
+
+        <EditText
+            android:id="@+id/edt_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif"
+            android:hint="User Name"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:hint="Email "
+            android:paddingLeft="10dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/edt_pass"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/edt_cpass"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:hint="Confirmasi Password "
+            android:paddingLeft="10dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reg1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:text="Regiter"
+        android:background="@drawable/button"
+        android:textSize="18sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/ly_2"
+    android:layout_below="@id/btn_reg1"
+    android:layout_marginTop="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suda punya akun ?"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12sp"
+        android:padding="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="119dp"
+        android:fontFamily="sans-serif-black"
+        android:text="REGISTER"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

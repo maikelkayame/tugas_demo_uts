@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vek1"
+        android:id="@+id/vek_1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/maik_1"
+        android:layout_width="112dp"
+        android:layout_height="111dp"
+
+        android:layout_marginTop="128dp"
+        android:src="@drawable/maik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome My Apps Duta Papua"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maik_1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="299dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="44dp"
+        android:text="“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="268dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/material_dynamic_primary50"
+        android:text="WELOME"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/button"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
